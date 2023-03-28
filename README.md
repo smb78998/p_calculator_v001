@@ -13,5 +13,5 @@ The programs GUI was created using java swing.</p>
 <hr>
 
 <h2> ScreenShots </h2>
-
+![Alt text](\test_calculator\screenshots\calculator_screenshot1 "Picture of Caclulator Program")
 <hr>
