@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-//maybe add error when divide by zero for fun :o
+//maybe add error when divide by zero 
 
 public class CalculatorMain implements ActionListener {
 
@@ -70,7 +70,7 @@ public class CalculatorMain implements ActionListener {
 		 functionButtons[6] = clearBut;
 		 functionButtons[7] = delBut;
 		
-		 //error here becuase i couldnt count right 
+		 
 		 for(int i = 0 ; i < 8 ; i++) { //Use for loop so that we can add things/ edit all buttons easier 
 			functionButtons[i].addActionListener(this); //HAVE TO ADD ACTIONLISTENER FOR BUTTON TO BE BUTTON 
 			 functionButtons[i].setFont(myFont);
@@ -122,8 +122,8 @@ public class CalculatorMain implements ActionListener {
 		frame.add(panel);
 		frame.add(text);
 		frame.add(label);
-		frame.setResizable(false);//it would be awkward if the calculator changes size o-o
-		frame.setIconImage(newing);//WHY CAN'T I USE MY IMAGEICON??????????????????????????????
+		frame.setResizable(false);
+		frame.setIconImage(newing);
 		frame.setVisible(true);
 	}
 	
