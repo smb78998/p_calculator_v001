@@ -5,7 +5,7 @@ Simple calculator program
 <p>A simple java Calculator program</p>
 <hr>
 
-<h2> Overview </h2>
+<h2> What does this program do? </h2>
 <p>The program should be able to complete simple two step arithmetic. The operations this calucator can complete
 include addition, subtraction, multiplication, and division
 
